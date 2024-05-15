@@ -1,1 +1,1 @@
-# atlas-low_level_programming
+# This repository goes over the low level basics of C
