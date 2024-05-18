@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - prints a size of various types on the computer
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
