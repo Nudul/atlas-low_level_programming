@@ -7,11 +7,12 @@
  *
  * Void takes no arguments on purpose
  */
+
 int main(void)
 {
-	    /* Print the specified string with quotes included */
-	    puts("\"Programming is like building a multilingual puzzle");
-	        /* Return 0 to indicate success */
-	        return 0;
+	/* Print the specified string with quotes included */
+		puts("\"Programming is like building a multilingual puzzle");
+	/* Return 0 to indicate success */
+		return (0);
 }
 
