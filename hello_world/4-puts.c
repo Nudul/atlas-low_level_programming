@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main will print a string with the quote at the beginning
+ * Main will print a string with the quote at the beginning included
  */
 
 int main(void)
 {
-	/* Literally prints the string */
 	puts("\"Programming is like building a multilingual puzzle");
-	/* Returns to 0 for success */
+	/* Literally prints the string */
 	return (0);
+	/* Returns to 0 for success */
 }
