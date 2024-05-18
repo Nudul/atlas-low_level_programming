@@ -1,8 +1,10 @@
 #include <stdio.h>
 /*
- * main - Main serves as the entry point for the program
- * Description: Function main prints the string followed by newline
- * Void takes no arguments on purpose
+ * main - Entry point
+ * Description: This function prints the string followed by newline
+ * @void: Void takes no arguments on purpose
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
