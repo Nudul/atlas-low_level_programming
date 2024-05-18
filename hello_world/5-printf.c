@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - Entry point
+/**
+ * function main - Entry point for the program
  * Description: This function prints the string followed by newline
  * @void: Void takes no arguments on purpose
  *
