@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * function main - Entry point for the program
- * Description: This function prints the string followed by newline
- * @void: Void takes no arguments on purpose
+ * main - Prints the string with quotes included followed by newline
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
