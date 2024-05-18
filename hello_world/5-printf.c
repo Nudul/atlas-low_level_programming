@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* Description: This function prints the string followed by newline */
+/* 
+ * Description: Function main prints the string followed by newline
+ * Void takes no arguments on purpose */
 int main(void)
 {
 	/* Prints the string from the prompt */
