@@ -1,5 +1,6 @@
 #include <stdio.h>
 /*
+ * main - Main serves as the entry point for the program
  * Description: Function main prints the string followed by newline
  * Void takes no arguments on purpose
  */
