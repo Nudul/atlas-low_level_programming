@@ -1,12 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main counts as an entry point for the program
- * This function will print a string with the quote included as told,
- * 	followed by a newline. Then it will return to 0 for success.
- *
- * 	Void is used so the function takes no arguments.
- *
+ * Main will print a string with the quote at the beginning included
  */
 
 int main(void)
