@@ -2,7 +2,7 @@
 /**
  * main - Main serves as the entry point of the program
  * Description: The function will print a string with quotes included.
- * 	It will be followed by a newline and then return to 0 for success
+ * It will be followed by a newline and then return to 0 for success
  * Void takes no arguments on purpose
  * Return: 0 on success
  */
