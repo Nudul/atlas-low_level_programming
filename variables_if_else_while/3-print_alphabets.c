@@ -15,7 +15,7 @@ int main(void)
 		putchar(lowercaseChar);
 	}
 
-	for (uppercaseChar = 'A'; uppercaseChar <= 'Z'; uppercase Char++)
+	for (uppercaseChar = 'A'; uppercaseChar <= 'Z'; uppercaseChar++)
 	{
 		putchar(uppercaseChar);
 	}
