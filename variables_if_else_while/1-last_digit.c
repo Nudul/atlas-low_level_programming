@@ -18,7 +18,7 @@ int main(void)
 
 	int lastDigit = abs(n) % 10;
 
-	if (lastDigit > 5 
+	if (lastDigit > 5) 
 {
 		printf("and is greater than 5\n");
 	}
