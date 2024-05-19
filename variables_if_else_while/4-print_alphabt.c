@@ -8,14 +8,7 @@
 
 int main(void)
 {
-	for (char c = 'a'; c!= 'q'; c++)
-	{
-		putchar(c);
-	}
-	for (; c!= 'e'; c++)
-	{
-		putchar(c);
-	}
-	
+	putchar("abcdfghijklmnoprstuvwxyz"
+	putchar ('\n');
 	return (0);
 }
