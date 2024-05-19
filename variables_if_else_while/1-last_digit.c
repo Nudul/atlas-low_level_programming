@@ -18,13 +18,12 @@ int main(void)
 
 	printf("Last digit of %d is ", n);
 
-	if (n < 0) 
+	lastdDigit = abs(n) % 10;
+
+	if (n < 0 && lastDigit!= 0)
 {
-	lastDigit = -(n % 10);
-	} else
-{
-	lastDigit = n % 10;
-}	
+	lastDigit *= -1;
+}
 
 	if (lastDigit > 5) 
 {
