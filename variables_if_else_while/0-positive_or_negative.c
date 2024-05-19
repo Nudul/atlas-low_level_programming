@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* The function is void */
+/**
+ * main - void is an empty argument so it won't do anything
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
