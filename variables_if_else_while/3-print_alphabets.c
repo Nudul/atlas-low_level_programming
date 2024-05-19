@@ -8,14 +8,16 @@
 
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
+	char lowercaseChar, uppercaseChar;
+
+	for (lowercaseChar = 'a'; lowercaseChar <= 'z'; lowerchaseChar++)
 	{
-		putchar(c);
+		putchar(lowercaseChar);
 	}
 
-	for (char c = 'A'; c <= 'Z'; c++)
+	for (uppercaseChar = 'A'; uppercaseChar <= 'Z'; uppercase Char++)
 	{
-		putchar(c);
+		putchar(uppercaseChar);
 	}
 
 	return (0);
