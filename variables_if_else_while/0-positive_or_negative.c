@@ -11,7 +11,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 /* Checks the value of n */
-	if n > 0
+	if (n > 0)
 {
 		printf("%d is positive\n", n);
 	} else if (n < 0)
