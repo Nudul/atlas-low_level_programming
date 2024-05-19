@@ -8,8 +8,7 @@
  * Return: 0
  */
 int main(void)
-{
-	
+{	
 	int n;
 	int lastDigit;
 
@@ -20,12 +19,12 @@ int main(void)
 
 	lastDigit = abs(n) % 10;
 
-	if (n < 0 && lastDigit!= 0)
+	if (n < 0 && lastDigit != 0)
 {
 	lastDigit *= -1;
 }
 
-	if (lastDigit > 5) 
+	if (lastDigit > 5)
 {
 		printf("%d and is greater than 5\n", lastDigit);
 	}
