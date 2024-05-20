@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * isalpha - very cool and stuff
+ * isalpha_ - very cool and stuff
+ *
+ * @c: I HATE BETTY LINTER
  *
  * Return: 0
  */
