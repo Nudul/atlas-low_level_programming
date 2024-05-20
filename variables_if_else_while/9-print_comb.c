@@ -8,22 +8,17 @@
 
 int main(void)
 {
-	int digits[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-	int size = sizeof(digits) / sizeof(digits[0]);
-	
-	int i;
+	int digit;
 
-	for (i = 0; i < size ++i)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		printf("%d", digits[i]);
-		if (i < size - 1)
-		{
-			printf(", ");
-		}
+		putchar(digit);
+		if (digit == '9')
+			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
-
-printf("\n");
-
-return (0);
-
+	putchar('\n');
+	return (0);
 }
