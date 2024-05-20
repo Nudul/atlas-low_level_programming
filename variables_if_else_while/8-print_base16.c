@@ -12,10 +12,16 @@ int main(void)
 	int i;
 
 	for (i = 0; i <= 15; i++)
+		{
+	if (i >= 10 && i <= 15)
+		{
+	putchar('a' + i - 10);
+	} else 
 	{
-		putchar((i < 10? '0' : 'a') + ((i / 10) * 10));
+	putchar('0' + i);
 	}
-	putchar ('\n');
+}
+	putchar('\n');
 
 	return (0);
 }
