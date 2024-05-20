@@ -16,7 +16,8 @@ int main(void)
 	if (i >= 10 && i <= 15)
 		{
 	putchar('a' + i - 10);
-	} else 
+	}
+	else
 	{
 	putchar('0' + i);
 	}
