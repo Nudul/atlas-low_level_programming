@@ -12,11 +12,13 @@ int main(void)
 	int buffer[11]; 
 	int index = 0;
 
-	for (int i = 0; i <= 9; ++i)
+	int i, j;
+	
+	for (i = 0; i <= 9; ++i)
 	{
 		buffer[index++] = digits[i];
 
-		for (int j = 0; j < index; ++j)
+		for (j = 0; j < index; ++j)
 		{
 			putchar(buffer[j] + '0');
 			if (j < index - 1)
