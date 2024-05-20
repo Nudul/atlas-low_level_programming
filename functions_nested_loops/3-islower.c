@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * c - is a very cool function
+ * _islower - is a very cool function.
  *
- * Return: 0
+ * @c: I hate betty linter with all my being.
+ *
+ * Return: 1 if c is lowercase, 0 otherwise.
  */
 int _islower(int c)
 {
