@@ -13,7 +13,7 @@ int main(void)
 	
 	int i;
 
-	for (i = 0; i < size ++i)
+	for (i = 0; i < size ++;i)
 	{
 		printf("%d", digits[i]);
 		if (i < size - 1)
