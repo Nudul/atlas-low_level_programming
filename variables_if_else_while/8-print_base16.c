@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - blahblah
+ * main - has void argument which is empty i guess
  *
  * Return 0
  */
-
-
 int main(void)
 {
 	int i;
