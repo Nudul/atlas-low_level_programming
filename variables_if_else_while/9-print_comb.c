@@ -19,7 +19,7 @@ int main(void)
 		buffer[index++] = digits[i];
 
 		for (j = 0; j < index; ++j)
-	{
+		{
 			putchar(buffer[j] + '0');
 			if (j < index - 1)
 			{
@@ -29,6 +29,7 @@ int main(void)
 			else
 		{
 				putchar('\n');
+		}
 		}
 
 		index = 0;
