@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_alphabet_x10 - very cool function that does cool things
  *
  * Return: 0
