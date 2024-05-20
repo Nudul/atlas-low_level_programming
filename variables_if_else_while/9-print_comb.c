@@ -26,14 +26,13 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			else
-		{
-				putchar('\n');
 		}
-		}
+	}
 
 		index = 0;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
