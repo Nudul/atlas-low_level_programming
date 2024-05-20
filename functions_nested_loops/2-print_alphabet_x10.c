@@ -1,16 +1,26 @@
 #include "main.h"
 
-int main(void) {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+int main(void)
+{
+	char c;
 
-	int; i, j
-	for (i = 0; i < 10; i++)
+	for (c = 'a'; c <= 'z'; ++c)
 	{
-		for (j = 0; j < 26; j++)
-		{
-			_putchar(alphabet[j]);
-		}
-	_putchar('\n');
+		_putchar(c);
 	}
-return (0);
+	_putchar('\n');
+
+	{
+		int i;
+		for (i = 0; i < 10; ++i)
+		{
+			for (c = 'a'; c <= 'z'; ++c)
+			{
+				_putchar(c);
+			}
+			_putchar('\n');
+		}
+	}
+
+	return (0);
 }
