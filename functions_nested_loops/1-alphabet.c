@@ -8,19 +8,18 @@
 
 void print_alphabet(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";
+	char letter;
 
-	_putchar('a');
-
-	_putchar('b' -1);
-
-	int i;
-
-	for (i = 2; i <= 25; i++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		_putchar(i + 'a');
+		printf("%c", letter)
 	}
 
-_putchar('\n');
+	printf("\n");
+}
 
+int main (void)
+{
+	print_alphabet();
+	return(0);
 }
