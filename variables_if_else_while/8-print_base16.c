@@ -3,7 +3,7 @@
 /**
  * main - has void argument which is empty i guess
  *
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
