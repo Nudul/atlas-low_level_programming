@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - is a very cool function
+ * c - is a very cool function
  *
- * Return:0
+ * Return: 0
  */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
