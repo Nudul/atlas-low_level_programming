@@ -7,10 +7,12 @@
  */
 int main(void)
 {
+	int i;
+
 	char *str = "_putchar";
 	int len = 8;
 
-	for (int i = 0; i < len; i++)
+	for (i = 0; i < len; i++)
 	{
 		write (1, &str[i], 1);
 	}
