@@ -1,11 +1,4 @@
 #include "main.h"
-#include <unistd.h>
-
-int main(void) 
-{
-	int r = print_lastdigit(98)
-		return (0);
-}
 
 int print_last_digit(int n)
 {
