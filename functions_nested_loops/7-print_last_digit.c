@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 
-int print_last_digit(int n)
+int print_last_digit(int);
 {
 	int lastDigit = n % 10;
 	char lastDigitChar = (char)(lastDigit + '0');
