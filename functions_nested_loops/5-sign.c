@@ -1,6 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 
+/**
+ * print_sign - is so awesome
+ *
+ * Return: 0
+ */
 int print_sign(int n)
 {
 	if (n > 0)
