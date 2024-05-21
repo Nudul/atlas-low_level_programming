@@ -4,6 +4,6 @@
 int print_last_digit(int n)
 {
 	int lastDigit = n % 10;
-	write(1, &lastDigit, 1);
+	putchar((unsigned char)(lastDigit + '0'));
 	return lastDigit;
 }
