@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * _abs - is very cool
  *
  * @n: stupid
