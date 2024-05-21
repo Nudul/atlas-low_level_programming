@@ -4,6 +4,8 @@
  * _abs - is very cool
  *
  * @n: stupid
+ *
+ * Return: n absolute value blahblahblah
  */
 int _abs(int n)
 {
