@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _mul - is a cool function
+ * mul - is a cool function
  *
- * @c: I hate betty linter
+ * @a: I hate betty linter
+ * @b: I hate betty so much
  *
  * Return: 1 or 0
  */
