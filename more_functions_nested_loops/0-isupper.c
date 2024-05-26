@@ -1,8 +1,19 @@
 #include "main.h"
-
-int _isupper(int c);
-
-int _isupper(int c) 
+/**
+ * * _isupper - very cool function
+ *
+ * @c: i hate betty linter
+ *
+ * Return: 0
+ */
+int _isupper(int c)
 {
-	return ((c >= 65) && (c <= 90))? 1 : 0;
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
