@@ -13,7 +13,8 @@ void print_most_numbers(void)
 	for (i = 48; i <= 57; i++)
 	{
 	char c = (char)i;
-	if(c!= '2' && c!= '4')
+
+	if (c != '2' && c != '4')
 		{
 		_putchar(c);
 		}
