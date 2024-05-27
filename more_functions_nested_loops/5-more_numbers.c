@@ -2,7 +2,7 @@
 /**
  *
  * _putchar - is very cool
- * 
+ *
  * @i: is awesome
  * @j: is very cool
  *
