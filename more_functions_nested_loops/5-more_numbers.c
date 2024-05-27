@@ -1,9 +1,6 @@
 #include "main.h"
 /**
- * more numbers - is very cool
- *
- * @i: is awesome
- * @j: is very cool
+ * more_numbers - is very cool
  *
  * Return: 1 or 0
  */
