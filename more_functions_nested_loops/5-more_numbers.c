@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- * _putchar - is very cool
+ * more numbers - is very cool
  *
  * @i: is awesome
  * @j: is very cool
