@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - dldfskf
- * 
+ *
  * @s: cool letter
  * Return: 0 or 1
  */
