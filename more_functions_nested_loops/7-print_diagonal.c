@@ -2,7 +2,7 @@
 /**
  * print_diagonal - very cool function
  *
- *
+ * @n: very cool letter
  *
  * Return: 1 or 0
  */
