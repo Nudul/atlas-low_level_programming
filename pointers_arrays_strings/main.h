@@ -1,6 +1,6 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)i
 
 #endif
