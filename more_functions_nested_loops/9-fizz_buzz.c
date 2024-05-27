@@ -5,17 +5,25 @@
 
 int main(void)
 {
-	int i;
-	for (i = 1; i <= 100; ++i)
+	for (int i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0)
+		if (i % 15 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if ((i % 3) == 0)
+		{
 			printf("Fizz");
-		if (i % 5 == 0)
+		}
+		else if ((i % 5) == 0)
+		{
 			printf("Buzz");
-		if ((i % 3 != 0) && (i % 5 != 0))
-			printf("number=%d", i);
-		printf("\n");
+		}
+		else
+		{
+			printf("%d", i);
+		}
 	}
-
+	
 	return (0);
 }
