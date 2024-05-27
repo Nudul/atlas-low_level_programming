@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_trinagle - blahblahblah
+ * print_triangle - blahblahblah
  *
  * @size: cool stuff
  */
