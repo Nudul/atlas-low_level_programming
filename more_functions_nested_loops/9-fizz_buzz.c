@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *
+ * main - very cool function
  */
-
 int main(void)
 {
 	int i;
