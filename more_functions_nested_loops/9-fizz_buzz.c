@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * main - very cool function
+ *
+ * Return: 0 or 1
  */
 int main(void)
 {
