@@ -4,10 +4,8 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	i = 0;
-	char *d;
-	d = dest;
+
+	char *d = dest;
 
 	while (*d)
 	{
@@ -18,6 +16,8 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		return (dest);
 	}
+
+	int i = 0;
 
 	while (i < n && src[i])
 	{
