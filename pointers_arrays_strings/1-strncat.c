@@ -2,6 +2,9 @@
 #include <stddef.h>
 /**
  * _strncat - very epic
+ * @src: cool letters
+ * @n: the best letter
+ * @dest: does cool things
  * Return: dest is cool
  */
 char *_strncat(char *dest, char *src, int n)
