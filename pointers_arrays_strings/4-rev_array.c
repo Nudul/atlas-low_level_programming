@@ -2,7 +2,7 @@
 /**
  * reverse_array - cool thing
  * @a: asdf
- * @b: asdkjf
+ * @n: asdkjf
  */
 void reverse_array(int *a, int n)
 {
