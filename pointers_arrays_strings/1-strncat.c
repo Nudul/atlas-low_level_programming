@@ -6,6 +6,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 
 	char *d = dest;
+	int i = 0;
 
 	while (*d)
 	{
@@ -16,8 +17,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		return (dest);
 	}
-
-	int i = 0;
 
 	while (i < n && src[i])
 	{
