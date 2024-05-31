@@ -6,23 +6,19 @@ char *_strncat(char *dest, char *src, int n)
 {
 
 	char *d = dest;
-	int i = 0;
+	int dest_len = 0;
 
 	while (*d)
 	{
 		d++;
+		dest_len++;
 	}
 
-	size_t dest_len = d - dest;
-
-	if (dest_len + n >= dest_size)
+	while (*src && n > 0)
 	{
-		return (dest);
-	}
-
-	while (i < n && src[i])
-	{
-		*d++ = src[i++];
+		*d++ = *src++;
+		n--;
+		dest_len++;
 	}
 
 	*d = '\0';
