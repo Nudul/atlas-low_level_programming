@@ -3,6 +3,7 @@
  * _strncpy - cool function
  * @n: cool letter
  * @dest: cool thingamajig
+ * @src: asdfghjk
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
