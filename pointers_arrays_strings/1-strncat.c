@@ -6,8 +6,8 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	i = 0;
-	
 	char *d = dest;
+
 	while (*d)
 	{
 		d++;
