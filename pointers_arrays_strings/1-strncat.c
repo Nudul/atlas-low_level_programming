@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /*
  */
 char *_strncat(char *dest, char *src, int n)
