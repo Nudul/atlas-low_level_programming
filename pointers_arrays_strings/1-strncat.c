@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stddef.h>
-/*
+/**
+ * _strncat - very epic
+ * Return: dest is cool
  */
 char *_strncat(char *dest, char *src, int n)
 {
