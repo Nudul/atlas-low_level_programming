@@ -21,5 +21,5 @@ while (*src)
 
 *d = '\0';
 
-return dest;
+return (dest);
 }
