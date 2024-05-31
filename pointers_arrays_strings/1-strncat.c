@@ -13,7 +13,9 @@ char *_strncat(char *dest, char *src, int n)
 		d++;
 	}
 
-	if ((strlen(dest) + n) >= sizeof(dest))
+	size_t dest_len = d - dest;
+
+	if (dest_len + n >= sizeof(dest))
 	{
 		return (dest);
 	}
