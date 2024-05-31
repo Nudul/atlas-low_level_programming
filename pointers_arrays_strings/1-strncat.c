@@ -7,13 +7,12 @@ char *_strncat(char *dest, char *src, int n)
 
 	char *d = dest;
 	int i = 0;
+	size_t dest_len = d - dest;
 
 	while (*d)
 	{
 		d++;
 	}
-
-	size_t dest_len = d - dest;
 
 	if (dest_len + n >= sizeof(dest))
 	{
