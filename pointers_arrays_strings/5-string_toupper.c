@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - asdkfjk
+ * @str: used to communicate strings
  * Return: string defined
  */
 char *string_toupper(char *str)
