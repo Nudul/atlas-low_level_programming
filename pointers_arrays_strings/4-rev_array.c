@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * reverse_array - cool thing
+ * @a: asdf
+ * @b: asdkjf
  */
 void reverse_array(int *a, int n)
 {
