@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * strstr - very cool function
+ * _strstr - very cool function
  * Return: NULL
  */
 char *_strstr(char *haystack, char *needle)
