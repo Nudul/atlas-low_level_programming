@@ -6,9 +6,9 @@
  */
 char *strstr(char *haystack, char *needle)
 {
-	if (*needle == '\0' || haystack == NULL)
+	if (*needle == '\0')
 	{
-		return (NULL);
+		return (haystack);
 	}
 
 	while (*haystack != '\0')
