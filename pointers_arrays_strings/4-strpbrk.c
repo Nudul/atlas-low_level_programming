@@ -3,7 +3,7 @@
 /**
  * _strpbrk - very cool function
  * @s: blahblah
- * @p: sadklf
+ * @accept: asdkflg
  * Return: NULL
  */
 char *_strpbrk(char *s, char *accept)
