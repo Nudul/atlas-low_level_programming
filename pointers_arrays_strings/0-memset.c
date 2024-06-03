@@ -2,6 +2,9 @@
 /**
  * _memset - is very cool
  * Return: s
+ * @s: asdf
+ * @b: awdsdf
+ * @n: dfklkf
  */
 char *_memset(char *s, char b, unsigned int n)
 {
