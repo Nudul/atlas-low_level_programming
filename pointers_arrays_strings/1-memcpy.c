@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * _memcpy - very cool function
- * @i: asdfg
+ * @dest: asdfgg
+ * @src: asdlfl
+ * @n: kfldkf
  * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
