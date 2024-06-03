@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * _strspn - very cool function
+ * Return: count
  */
 unsigned int _strspn(char *s, char *accept)
 {
