@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
  * print_diagsums - cool function
+ * @a: asdlffk
+ * @size: alkfd
  */
 void print_diagsums(int *a, int size)
 {
