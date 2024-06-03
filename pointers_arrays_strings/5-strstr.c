@@ -2,6 +2,8 @@
 #include <stddef.h>
 /**
  * _strstr - very cool function
+ * @haystack: asdkjfkf
+ * @needle: jkdasfgdhf
  * Return: NULL
  */
 char *_strstr(char *haystack, char *needle)
