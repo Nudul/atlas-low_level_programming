@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * strstr - very cool function
  * Return: NULL
