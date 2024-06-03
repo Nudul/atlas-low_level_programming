@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * print_diagsums - cool function
  */
 void print_diagsums(int *a, int size)
 {
