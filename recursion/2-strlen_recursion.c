@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - main function for returning string length recursively
  * @s: points to first character
- * Return: 0 for when the end of the string is reached. 1 is used for the recursion that goes through each character in the string
+ * Return: 0 when string ends. 1 for recursion
  */
 int _strlen_recursion(char *s)
 {
