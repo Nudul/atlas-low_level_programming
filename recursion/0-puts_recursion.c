@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _puts_recursion - main function called
+ * @s: points to first character
  */
 void _puts_recursion(char *s)
 {
