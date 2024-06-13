@@ -1,0 +1,4 @@
+{
+    "git.autofetch": "all",
+    "git.enableSmartCommit": true
+}
