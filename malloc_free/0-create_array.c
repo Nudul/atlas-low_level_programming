@@ -4,23 +4,25 @@
 
 char *create_array(unsigned int size, char c)
 {
-    int size = 3;
     char *arr = NULL;
+    int size;
+    int c;
 
     if (size == 0)
     {
-        return (1);
+        return NULL;
     }
 
     arr = (char *)malloc(size * sizeof(char));
     if (arr == NULL)
     {
-        return (1);
+        return NULL;
     }
 
-    arr[0] = 'A' + size - 1;
+    for (unsigned int i = 0; i < size; i++)
+    {
+        arr[i] = c;
+    }
 
-    free(arr);
-
-        return (0);
+    return arr;
 }
