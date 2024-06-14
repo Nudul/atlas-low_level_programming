@@ -8,5 +8,8 @@
 	"editor.insertSpaces": false,
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
-	"notebook.insertFinalNewline": true
+	"notebook.insertFinalNewline": true,
+	"files.associations": {
+		"main.h": "c"
+	}
 }

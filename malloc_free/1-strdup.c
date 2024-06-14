@@ -3,6 +3,7 @@
 #include "main.h"
 /**
  * _strdup - string duplicate
+ * @str: exists to be duplicated by new_str
  * Return: NULL if str is NULL
  */
 char *_strdup(char *str)
