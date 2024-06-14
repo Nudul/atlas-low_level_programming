@@ -3,8 +3,8 @@
 #include "main.h"
 /**
  * create_array - creating an array and finding the first character in it
- * size: tells machine size of the array
- * c: tells machine about a specific char
+ * @size: tells machine size of the array
+ * @c: tells machine about a specific char
  * Return: NULL since array cant be zero
  */
 char *create_array(unsigned int size, char c)
