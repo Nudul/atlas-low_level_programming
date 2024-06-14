@@ -22,7 +22,7 @@ size_t length_s2 = strlen(s2);
 
 char *result = (char *)malloc((length_s1 + length_s2 + 1) * sizeof(char));
 
-if (result == NULL);
+if (result == NULL)
 	{
 	return (NULL);
 	}
