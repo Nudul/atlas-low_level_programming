@@ -8,8 +8,8 @@
 char *str_concat(char *s1, char *s2)
 {
 
-size_t length_s1, length_s2;
-char *result;
+int i;
+int j;
 
 if (s1 == NULL)
 	{
@@ -20,18 +20,27 @@ if (s2 == NULL)
 		s2 = "";
 	}
 
-length_s1 = strlen(s1);
-length_s2 = strlen(s2);
+	int len1 = string_length(s1);
+	int len2 = string_length(s2);
+	int total_len = len1 + len2;
 
-result = (char *)malloc((length_s1 + length_s2 + 1) * sizeof(char));
-
-if (result == NULL)
+	char *result = (char *)malloc((total_len + 1) * sizeof(char));
+	if (result == NULL)
 	{
-	return (NULL);
+		return (NULL);
 	}
 
-strcpy(result, s1);
-strcat(result, s2);
+for (i = 0; i < len1; i++)
+{
+	result[i] = s1[i];
+}
+
+for (j = 0; j < len2; j++)
+{
+	result[i + j] = s2[j];
+}
+
+result[total_len] = '\0';
 
 return (result);
 }
