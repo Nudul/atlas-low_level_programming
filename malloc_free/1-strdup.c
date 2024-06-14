@@ -28,6 +28,6 @@ for (i = 0; i <= length; i++)
 		new_str[i] = str[i];
 	}
 
-return new_str;
+return (new_str);
 
 }
