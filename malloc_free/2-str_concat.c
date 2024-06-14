@@ -8,8 +8,8 @@
 char *str_concat(char *s1, char *s2)
 {
 
-int i;
-int j;
+int i, j;
+int len1, len2, total_len;
 
 if (s1 == NULL)
 	{
@@ -20,9 +20,9 @@ if (s2 == NULL)
 		s2 = "";
 	}
 
-	int len1 = string_length(s1);
-	int len2 = string_length(s2);
-	int total_len = len1 + len2;
+	len1 = string_length(s1);
+	len2 = string_length(s2);
+	total_len = len1 + len2;
 
 	char *result = (char *)malloc((total_len + 1) * sizeof(char));
 	if (result == NULL)
