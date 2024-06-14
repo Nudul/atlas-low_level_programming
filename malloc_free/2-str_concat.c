@@ -7,40 +7,33 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-
-int i, j;
-int len1, len2, total_len;
+char *new_str;
+int length;
+int dup_str = 0;
+int len = 0;
 
 if (s1 == NULL)
-	{
-		s1 = "";
-	}
+	s1 = "";
+
 if (s2 == NULL)
-	{
-		s2 = "";
-	}
+	s2 = "";
 
-	len1 = string_length(s1);
-	len2 = string_length(s2);
-	total_len = len1 + len2;
-
-	char *result = (char *)malloc((total_len + 1) * sizeof(char));
-	if (result == NULL)
-	{
-		return (NULL);
-	}
-
-for (i = 0; i < len1; i++)
-{
-	result[i] = s1[i];
+for (length = 0; s1[length] || s2[length]; length++) {
+	if (s1[length])
+		len++;
+	if (s2[length])
+		len++;
 }
 
-for (j = 0; j < len2; j++)
-{
-	result[i + j] = s2[j];
-}
+new_str = malloc(sizeof(char) * len);
+if (new_str == NULL)
+	return (NULL);
 
-result[total_len] = '\0';
+for (length = 0; s1[length]; length++)
+	new_str[dup_str++] = s1[length];
 
-return (result);
+for (length = 0; s2[length]; length++)
+	new_str[dup_str++] = s2[length];
+
+return (new_str);
 }
