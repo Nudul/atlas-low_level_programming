@@ -14,5 +14,3 @@ if (ptr == NULL)
 	}
 	return ptr;
 }
-
-a
