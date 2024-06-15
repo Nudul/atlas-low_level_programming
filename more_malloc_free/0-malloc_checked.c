@@ -3,6 +3,8 @@
 #include "main.h"
 /**
 * malloc_checked - allocates memory
+* @b: number of bytes
+* Return: ptr to memory
 */
 void *malloc_checked(unsigned int b)
 {
