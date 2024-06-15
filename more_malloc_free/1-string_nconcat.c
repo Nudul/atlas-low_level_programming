@@ -6,6 +6,7 @@
 * @s1: concatenates with s2
 * @s2: concatenates with s1
 * @n: number of char
+* Return: result, stores the string for us dynamically
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
