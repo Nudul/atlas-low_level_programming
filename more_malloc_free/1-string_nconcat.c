@@ -6,7 +6,7 @@
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int total_len;
+	unsigned int full_len;
 	unsigned int len1 = 0;
 	unsigned int len2 = 0;
 	unsigned int i;
@@ -27,7 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	full_len = len1 + ((n < len2) ? n : len2);
 
-	char *result = (char *)malloc(full_len + 1);
+	result = (char *)malloc(full_len + 1);
 
 	if (result == NULL)
 	{
