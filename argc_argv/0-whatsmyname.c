@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 */
-int main (void)
+int main (char *argv[])
 {
 	printf("Program name: %s\n", argv[0]);
 
