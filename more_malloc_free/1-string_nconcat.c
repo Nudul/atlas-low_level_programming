@@ -3,6 +3,9 @@
 #include "main.h"
 /**
 * string_nconcat - concatenates 2 strings
+* @s1: concatenates with s2
+* @s2: concatenates with s1
+* @n: number of char
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
