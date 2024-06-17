@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* main - main function
+* main - file name
+* Return: 0
 */
 int main(void)
 {
