@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+* array_range - array of integers
+* Return: ptr to new array
 */
 int *array_range(int min, int max)
 {
