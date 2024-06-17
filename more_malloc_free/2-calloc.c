@@ -4,7 +4,7 @@
 /**
 * _calloc - allocating memory to 0
 * @size: set to 0
-* @
+* @nmemb: array elements
 * Return: pointer to memory
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
