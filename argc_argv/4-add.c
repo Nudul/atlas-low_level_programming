@@ -9,8 +9,6 @@
 */
 int is_positive_number(const char *str)
 {
-	int i;
-
 	if (*str == '\0') return (0);
 	while (*str)
 	{
