@@ -7,6 +7,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int *m;
 	unsigned int i;
+	char* ptr = (char *)m;
 
 	if (nmemb == 0 || size == 0)
 	{
@@ -19,8 +20,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-
-	char* ptr = (char *)m;
 
 	for (i = 0; i < nmemb * size; i++)
 	{
