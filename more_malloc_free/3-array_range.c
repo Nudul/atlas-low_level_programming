@@ -3,6 +3,8 @@
 #include "main.h"
 /**
 * array_range - array of integers
+* @min: least values
+* @max: most values
 * Return: ptr to new array
 */
 int *array_range(int min, int max)
