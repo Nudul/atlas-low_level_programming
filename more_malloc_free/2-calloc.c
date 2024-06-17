@@ -5,12 +5,14 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	unsigned int *m = nmemb;
+
 	if (nmemb == 0 || size == 0)
 	{
 	return (NULL);
 	}
 
-	m = calloc(nmemb, size);
+	void* m = calloc(nmemb, size);
 
 	if (m == NULL)
 	{
