@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+* _calloc - allocating memory to 0
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
