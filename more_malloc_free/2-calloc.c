@@ -7,16 +7,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int *m = nmemb;
 
-	if (nmemb == '\0' || size == '\0')
+	if (nmemb == 0 || size == 0)
 	{
 	return (NULL);
 	}
 
-	while (m != '\0')
+	m = calloc(nmemb, size);
+
+	if (m == NULL)
 	{
-	m++;
+		return (NULL);
 	}
 
-	m = calloc(nmemb, size);
 	return (m);
 }
