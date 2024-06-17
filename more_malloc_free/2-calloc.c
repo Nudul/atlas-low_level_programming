@@ -17,6 +17,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (m == NULL)
 	{
 		printf("%p\n", m);
+	}
 		else
 		{
 			return (NULL);
