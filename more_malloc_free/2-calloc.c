@@ -3,6 +3,8 @@
 #include "main.h"
 /**
 * _calloc - allocating memory to 0
+* @size: set to 0
+* Return: pointer to memory
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
