@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "dog.h"
 /**
-*
+* init_dog - dog structure
+* @d: the struct
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
@@ -11,10 +13,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->owner = owner;
 	}
 }
-
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
