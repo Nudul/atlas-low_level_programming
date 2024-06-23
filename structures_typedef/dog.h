@@ -2,6 +2,9 @@
 #define dog_h
 /**
 * struct dog - structure named dog
+* @name: character
+* @age: float
+* @owner: character
 */
 struct dog
 {
