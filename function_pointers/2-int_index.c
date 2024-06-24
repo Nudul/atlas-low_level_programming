@@ -5,6 +5,7 @@
 * @size: size of array
 * @cmp: checking elements of array
 */
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
