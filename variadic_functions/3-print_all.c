@@ -4,8 +4,8 @@
  * print_all - prints all arguments
  * @format: types of argument
  */
- void print_all(const char * const format, ...)
- {
+void print_all(const char * const format, ...)
+{
 	unsigned int i = 0, c = 0, j;
 	va_list arg;
 	char c_arg[] = "cifs";
@@ -45,4 +45,4 @@
 				break;
 		} i++;
 	} printf("\n"), va_end(arg);
- }
+}
