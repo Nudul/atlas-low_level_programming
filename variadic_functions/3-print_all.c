@@ -41,8 +41,8 @@
 					printf("(nil)");
 					break;
 				}
-				printf("%s", str)
+				printf("%s", str);
 				break;
-		} i++
+		} i++;
 	} printf("\n"), va_end(arg);
  }
