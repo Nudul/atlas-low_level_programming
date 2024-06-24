@@ -19,7 +19,7 @@
 		{
 			if (format[i] == c_arg[j] && c)
 			{
-				printf(", ")
+				printf(", ");
 				break;
 			} j++;
 		}
